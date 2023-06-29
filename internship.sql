@@ -78,7 +78,8 @@ write an sql qurey to show only even rows rom worker table*/
 select*from worker
 where mod(worker_id,2)=0;
 
-/*ery to print details of the Workers who joined in Feb’2014.
+/*question 10
+write an sql query to print details of the Workers who joined in Feb’2014.
 */
 Select * from Worker 
 where year(JOINING_DATE) = 2014 and month(JOINING_DATE) = 2;
